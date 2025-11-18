@@ -1,17 +1,134 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box ;
+    box-sizing: border-box;
+}
+/* header */
+
+.header {
+    font-family: ubuntu;
+    border-bottom: 1px solid #e5e7eb;
+   
+}
+
+.header__container {
+    display: flex;
+    width: calc(100% - 312px * 2);
+    max-width: 1296px;
+    margin: 0 auto;
+    align-items: center;
+    gap: 50px;
+    padding: 18px;
+    
+    
+    
+}
+
+.header__menu {
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    gap: 20px;
+       text-shadow:
+    -1px -1px 0 #DCE0E9,
+    1px -1px 0 #DCE0E9,
+    -1px 1px 0 #DCE0E9,
+    1px 1px 0 #DCE0E9,
+    -1px 0 0 #DCE0E9,
+    1px 0 0 #DCE0E9,
+    0 -1px 0 #DCE0E9,
+    0 1px 0 #DCE0E9;
+   
+}
+
+.header__link {
+    text-decoration: none;
+}
+
+.header__button {
+text-decoration: none;
+margin-left: auto;
+background-color: #0013FF;
+color: #FFFFFF;
+font-size: 16px;
+padding: 10px 20px;
+border-radius: 20px;
+box-shadow:
+    -1px -1px 0 #DCE0E9,
+    1px -1px 0 #DCE0E9,
+    -1px 1px 0 #DCE0E9,
+    1px 1px 0 #DCE0E9,
+    -1px 0 0 #DCE0E9,
+    1px 0 0 #DCE0E9,
+    0 -1px 0 #DCE0E9,
+    0 1px 0 #DCE0E9;
+}
+/* header */
+/* main*/
+
+.cards {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.cards__container {
+    display: flex;
+    width: calc(100% - 312px * 2);
+    max-width: 1236px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.cards__block {
+    background-color: #e5e7eb;
 }
 
 
-.header {
+
+/* main*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.header {
    justify-content: center;
    gap: 100px;
    align-items: center;
    font-family: Arial, Helvetica, sans-serif;
    padding: 25px;
    border-bottom: 1px solid #e5e5e5;
+   font-family: ;
+}
+
+.header__container {
+    
 }
 
 
@@ -23,8 +140,7 @@
 .menu {
     list-style: none;
     gap: 20px;
-    
-}
+    }
 
 
 .button {
@@ -36,13 +152,13 @@
     padding: 10px 20px;
     font-weight: 600;
     box-shadow: 
-    inset 0 0 0 1px rgb(226, 226, 220);  /* Светлая рамка внутри */
-    }
+    inset 0 0 0 1px rgb(226, 226, 220); 
+}
 
 
-    .logo {
+.logo {
        height: 23px;
-    }
+}
 
 
     .header a {
@@ -50,7 +166,7 @@
 }
 
 
-.menu {
+.menu a {
     font-size: 16px;  
     color: #040062;
     text-shadow:
@@ -62,5 +178,4 @@
     1px 0 0 #DCE0E9,
     0 -1px 0 #DCE0E9,
     0 1px 0 #DCE0E9;
-}
-
+}*/
