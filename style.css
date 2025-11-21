@@ -67,17 +67,70 @@ box-shadow:
 /* first */
 
 .first {
-    font-family: Abril+Fatface;
+    font-family: Abril Fatface;
     margin-bottom: 120px;
 }
 
 .first__container {
-    display: flex;
-    width: calc(100% - 312px * 2);
-    max-width: 1236px;
+    width: calc(100% - 30px * 2);
+    max-width: 1296px;
     margin: 0 auto;
     background-color: #C7E3E9;
 }
+
+.first__title {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 0 90px;
+    color: #040062;
+    text-align: center;
+}
+
+.first__container {
+    position: relative;
+}
+
+.first__block {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 35px;
+    align-items: center;
+  
+}
+
+.first__title-text1 {
+    font-size: 60px;
+    line-height: 100%;
+}
+
+.first__title-text2 {
+    font-size: 80px;
+    line-height: 100%;
+}
+
+.first__title-text3 {
+    font-size: 110px;
+    line-height: 100%;
+
+}
+
+.first__img1 {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.first__img2 {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+ 
 
 /* first */
 
